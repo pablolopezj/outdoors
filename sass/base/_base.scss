@@ -1,0 +1,24 @@
+$color-primary: #55c57a;
+$color-primay-light: #7ed56f;
+$color-primary-dark: #28b485;
+
+$color-gray-dark: #777;
+$color-white: #fff;
+$color-black: #000;
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    //This define what 1 rem is (based on 10px)
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
